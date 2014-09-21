@@ -1,6 +1,7 @@
 package com.hyj.dp;
 
 /**
+ * 如何用面值为1，3，5的硬币，以最少的数量凑齐指定的数额。
  * Created by huangyingjie on 14-9-17.
  */
 public class CoinCounter {
