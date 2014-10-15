@@ -19,6 +19,7 @@ public class CoinCounter {
         }
         return plan[total];
     }
+
     public static void main (String[] args) {
         Integer plan = new CoinCounter().getPlan(57);
         System.out.println(new StringBuilder("最少需要").append(plan).append("枚硬币"));
