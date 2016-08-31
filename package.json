@@ -1,7 +1,7 @@
 {
-  "name": "es6-tutor",
+  "name": "Algorithm-tutor",
   "version": "1.0.0",
-  "description": "learn && pratice es6",
+  "description": "learn Algorithm",
   "main": "index.js",
   "scripts": {
     "lint": "node_modules/.bin/eslint .",
