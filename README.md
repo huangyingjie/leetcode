@@ -3,16 +3,8 @@ leetcode
 
 ## 练习算法
 
-## IDE环境
+### 目标
 
-* 创建测试用例： 
+记住算法是次要的，掌握算法思想才是关键。
 
-    command + shift + t
-
-* refactor:
-
-    Fn + Shift + F6
-    
-* run unit test
-
-    Fn + Ctrl + Shift + F10
+每一个算法一定要推导出它背后的思想，否则就是白做。
