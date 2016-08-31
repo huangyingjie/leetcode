@@ -23,7 +23,7 @@ describe("按对角线打印二维数组，分治思想", function () {
   function printFromTopRight(array) {
     const rs = [];
     for (let i = 0; i < array.length; i++) {
-      rs.push(printDiagonalLine(array, 0, array.length - i - 1, i, array[0].length));
+      rs.push(printDiagonalLine(array, 0, array.length - i - 1, i, array[0].length -1));
     }
     return rs;
   }
