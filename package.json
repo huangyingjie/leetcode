@@ -4,16 +4,16 @@
   "description": "learn Algorithm",
   "main": "index.js",
   "scripts": {
-    "lint": "node_modules/.bin/eslint .",
-    "start": "node_modules/.bin/mocha -w -c --compilers js:babel-register --harmony_proxies",
-    "test": "node_modules/.bin/mocha --compilers js:babel-register --harmony_proxies"
+    "lint": "eslint .",
+    "start": "mocha -w -c --compilers js:babel-register --recursive",
+    "test": "mocha --compilers js:babel-register --recursive"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/huangyingjie/es6-tutor.git"
   },
   "engines": {
-    "node": ">=4.0.0"
+    "node": ">=10.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^5.0.0-beta6",
